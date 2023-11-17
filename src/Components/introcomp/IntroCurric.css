@@ -1,0 +1,217 @@
+.icurr-cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.icurr-inner-cont {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icurr-head {
+  color: #800080;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.icurr-subhead-cont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.ileclist-topic {
+  box-sizing: border-box;
+  background-color: #fff5ff;
+  color: var(--primary-color);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.ileclist-topic svg {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.icurr-main-cont {
+  width: 70vw;
+  display: flex;
+  gap: 30px;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+  height: auto;
+  padding: 20px;
+}
+.icurr-main-left {
+  width: 45%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.icurr-video {
+  width: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icurr-video svg {
+  width: 100%;
+  
+}
+
+.icurr-main-right {
+  width: 45%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ileclist-quesDiv {
+  width: 90%;
+  margin: 0;
+  display: flex;
+  gap: 5px;
+}
+.ileclist-quesDiv span {
+  width: calc(95% - 35px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: clamp(13px, 3vw, 15px);
+}
+@media screen and (max-width: 1000px) {
+  .icurr-main-cont {
+    width: 80vw;
+    display: flex;
+    gap: 30px;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icurr-cont {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  .icurr-inner-cont {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .icurr-head {
+    color: #800080;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .icurr-subhead-cont {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+  }
+  .ihero-card-out-cont {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ileclist-topic {
+    box-sizing: border-box;
+    background-color: #fff5ff;
+    color: var(--primary-color);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .ileclist-topic svg {
+    width: 50px;
+    flex-shrink: 0;
+  }
+
+  .ileclist-quesDiv {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+  }
+  .ileclist-quesDiv span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: clamp(14px, 3vw, 20px);
+  }
+
+  .icurr-main-cont {
+    width: 95vw;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+  .icurr-main-left {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+  }
+  .icurr-main-right {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}

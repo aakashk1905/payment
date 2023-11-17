@@ -1,0 +1,83 @@
+.loginCont {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 1111;
+}
+
+.logoCont {
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logoCont img {
+  width: 50%;
+}
+.crossCont {
+  /* width:50%; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.crossCont img {
+  width: 32px;
+}
+.login_form {
+  border-radius: 50px;
+  background: #fff;
+  width: 378px;
+  top: calc(50% - 243px);
+  left: calc(50% - 189px);
+  height: 587px;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.googlesign {
+  display: flex;
+  width: 90%;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.87);
+  box-shadow: 0px 2px 22px 0px rgba(0, 0, 0, 0.12);
+}
+.login_form input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #cacaca;
+  outline: none;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn,
+button {
+  background: #a0a0a0;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}

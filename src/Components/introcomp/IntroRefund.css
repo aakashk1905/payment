@@ -1,0 +1,755 @@
+.irefund-cont {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 0 64px 0;
+}
+
+.irefund-head {
+  width: 40%;
+  color: #989898;
+  text-align: center;
+  font-family: Poppins;
+  font-size: clamp(24px, 2.5vw, 36px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.5%; /* 42.66px */
+}
+
+.irefund-caro-cont {
+  height: 408px;
+  width: 80vw;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 30px;
+  overflow: scroll;
+}
+
+.irefund-step {
+  flex-shrink: 0;
+  background-color: #fff9f9;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  text-align: flex-start;
+  box-shadow: 0px 20px 22px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  position: relative;
+}
+
+.irefund-step * {
+  margin: 0;
+}
+
+.irefund-step .irefund-number {
+  position: absolute;
+  right: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  top: 1rem;
+}
+
+.irefund-step h4 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.irefund-step h5 {
+  color: black;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.irefund-step:first-child h5 {
+  color: #970171;
+  opacity: 1;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.irefund-step p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.irefund-step p strong {
+  font-weight: 600;
+}
+
+.irefund-step img {
+  position: absolute;
+  width: 60%;
+  bottom: 16%;
+  right: 22%;
+}
+
+.irefund-step .irefund-price {
+  border: 1px solid #ffebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  /* margin-bottom: 1.5rem;
+  margin-top: 1rem; */
+  width: calc(100% - 3rem);
+}
+
+.irefund-step .irefund-price span {
+  color: #970171;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  align-self: flex-start;
+  padding-top: 0.6rem;
+}
+
+.irefund-step .irefund-price span + span {
+  padding-top: 0;
+  align-self: center;
+  font-weight: 700;
+  line-height: 96px;
+  font-size: 64px;
+}
+
+.irefund-step .irefund-price span + span + span {
+  padding-top: 0;
+  align-self: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 0.3rem;
+}
+
+.irefund-step:first-child .irefund-price span + span + span {
+  font-size: 24px;
+}
+
+.irefund-tags {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+}
+
+.irefund-tags span {
+  background-color: #9701710d;
+  color: #970171;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 18px;
+}
+/* 
+.irefund-card {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff9f9;
+  box-shadow: 0px 20px 22px 0px rgba(0, 0, 0, 0.15);
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.irefund-card-top-cont {
+  width: 90%;
+}
+
+.irefund-card-num-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.irefund-card-head1 {
+  color: #970171;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.irefund-card-num {
+  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.irefund-card-text {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.irefund-mid-cont {
+  width: 90%;
+  height: 99px;
+  border-radius: 10px;
+  border: 2px solid #ffebeb;
+  background: #fff9f9;
+  backdrop-filter: blur(50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.irefund-enroll-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  background: #800080;
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  width: 349px;
+  padding: 16px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.idoubt-cont {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  padding: 30px 0;
+  background: linear-gradient(
+    275deg,
+    rgba(255, 135, 135, 0.04) 0.74%,
+    rgba(128, 0, 128, 0.08) 50.35%,
+    rgba(255, 226, 226, 0.28) 86.22%
+  );
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.idoubt-inner-cont {
+  height: auto;
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.idoubnt-head {
+  color: #800080;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124%;
+}
+.idoubt-main-cont {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.idoubt-left {
+  width: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 15px;
+}
+.idoubt-img {
+  align-self: center;
+}
+.idoubt-img-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 29.64px */
+}
+.idoubt-img-text {
+  /* width:90%; */
+  color: #464646;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.5%; /* 19.76px */
+}
+
+.idount-whyus {
+  width: 100vw;
+  margin-top: 40px;
+  padding: 10px 0 30px 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.idoubt-whyus-head {
+  color: #800080;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.idoubt-whyus-card-cont {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ibout-whyus-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.ibout-whyus-card-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 108%;
+  width: 242.116px;
+}
+
+.ibout-whyus-card-text {
+  width: 322.822px;
+  color: #818184;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ibout-whyus-card-num {
+  position: absolute;
+  background: linear-gradient(
+    270deg,
+    rgba(128, 0, 128, 0.25) 0%,
+    rgba(255, 134, 76, 0.25) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  left: -25px;
+  top: -5px;
+  text-align: right;
+}
+.iref-mob {
+  display: none;
+}
+
+.ihero-enroll-btn1 {
+  border-radius: 10px;
+  background: #800080;
+  display: flex;
+  width: 382px;
+  padding: 19px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .idoubt-whyus-card-cont {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .irefund-head {
+    width: 90%;
+    color: #989898;
+  }
+  .iref-mob {
+    display: block;
+  }
+  .ihero-enroll-btn1 {
+    border-radius: 10px;
+    background: #800080;
+    display: flex;
+    width: 75vw;
+    padding: 19px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    max-width: 382px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+  }
+  .irefund-cont {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0 64px 0;
+  }
+
+  .iref-desk {
+    display: none;
+  }
+  .irefund-caro-cont {
+    height: 408px;
+    width: 80vw;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    overflow: scroll;
+  }
+
+  .irefund-step {
+    flex-shrink: 0;
+    background-color: #fff9f9;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    text-align: flex-start;
+    box-shadow: 0px 20px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .irefund-step * {
+    margin: 0;
+  }
+
+  .irefund-step .irefund-number {
+    position: absolute;
+    right: 1rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+    top: 1rem;
+  }
+
+  .irefund-step h4 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .irefund-step h5 {
+    color: black;
+    opacity: 0.6;
+    font-size: 18px;
+  }
+
+  .irefund-step:first-child h5 {
+    color: #970171;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .irefund-step p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .irefund-step p strong {
+    font-weight: 600;
+  }
+
+  .irefund-step img {
+    position: absolute;
+    width: 60%;
+    bottom: 28%;
+    right: 22%;
+  }
+
+  .irefund-step .irefund-price {
+    border: 1px solid #ffebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+
+    width: calc(100% - 3rem);
+  }
+
+  .irefund-step .irefund-price span {
+    color: #970171;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    align-self: flex-start;
+    padding-top: 0.6rem;
+  }
+
+  .irefund-step .irefund-price span + span {
+    padding-top: 0;
+    align-self: center;
+    font-weight: 700;
+    line-height: 96px;
+    font-size: 45px;
+  }
+
+  .irefund-step .irefund-price span + span + span {
+    padding-top: 0;
+    align-self: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 0.3rem;
+  }
+
+  .irefund-step:first-child .irefund-price span + span + span {
+    font-size: 18px;
+  }
+
+  .irefund-tags {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+  }
+
+  .irefund-tags span {
+    background-color: #9701710d;
+    color: #970171;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .idoubt-cont {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    padding: 30px 0;
+    background: linear-gradient(
+      275deg,
+      rgba(255, 135, 135, 0.04) 0.74%,
+      rgba(128, 0, 128, 0.08) 50.35%,
+      rgba(255, 226, 226, 0.28) 86.22%
+    );
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+
+  .idoubt-inner-cont {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .idoubnt-head {
+    color: #800080;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 124%;
+  }
+  .idoubt-main-cont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .irefund-enroll-btn {
+    width: 80vw;
+    max-width: 349px;
+  }
+
+  .idoubt-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .idoubt-img {
+    align-self: center;
+  }
+  .idoubt-img-head {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%; /* 29.64px */
+  }
+  .idoubt-img-text {
+    /* width:90%; */
+    color: #464646;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 90%;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 123.5%; /* 19.76px */
+  }
+
+  .idount-whyus {
+    width: 100vw;
+    margin-top: 40px;
+    padding: 10px 0 30px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .idoubt-whyus-head {
+    color: #800080;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .idoubt-whyus-card-cont {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ibout-whyus-card {
+    width: auto;
+    max-width: 75vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ibout-whyus-card-head {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108%;
+    width: 242.116px;
+  }
+
+  .ibout-whyus-card-text {
+    width: fit-content;
+    color: #818184;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .ibout-whyus-card-num {
+    position: absolute;
+    background: linear-gradient(
+      270deg,
+      rgba(128, 0, 128, 0.25) 0%,
+      rgba(255, 134, 76, 0.25) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    left: -25px;
+    top: -5px;
+    text-align: right;
+  }
+}

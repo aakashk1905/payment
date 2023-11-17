@@ -1,0 +1,65 @@
+.ifaq-cont {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0;
+  align-items: center;
+}
+.ifaq-inner-cont {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ifaq-main-cont {
+  width: 80%;
+  overflow: hidden;
+}
+.ifaq-head {
+  color: #800080;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .ifaq-cont {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: center;
+  }
+  .ifaq-inner-cont {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ifaq-main-cont {
+    width: 100%;
+    overflow: hidden;
+  }
+  .ifaq-head {
+    color: #800080;
+    font-family: Poppins;
+    font-size: clamp(28px,8vw ,36px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

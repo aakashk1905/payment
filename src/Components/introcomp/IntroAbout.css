@@ -1,0 +1,72 @@
+.iab-cont {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  gap: 30px;
+}
+
+.iab-head {
+  color: #800080;
+  font-family: Poppins;
+  font-size: clamp(28px,8vw ,36px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.iab-inner-cont {
+  width: 70%;
+  display: flex;
+  border-radius: 20px;
+  background: rgba(217, 217, 217, 0.1);
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.iab-main-head {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.iab-content-head {
+  background: var(
+    --python-banner-gradient-hero-image,
+    linear-gradient(176deg, #800080 -2.53%, #7e267e 27.29%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.iab-content-text {
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #818184;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

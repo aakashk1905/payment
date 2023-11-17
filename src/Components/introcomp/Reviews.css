@@ -1,0 +1,230 @@
+.irev-reviews h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--primary-color);
+  text-align: center;
+  /* margin: 5rem 0; */
+}
+.irev-container {
+  width: 100vw;
+  padding: 30px 0;
+}
+.irev-reviewsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.irev-reviewsDiv button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.irev-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.irev-reviewText {
+  position: relative;
+}
+
+.irev-reviewText svg {
+  width: 45px;
+}
+
+.irev-reviewText p {
+  max-width: 445px;
+  margin-left: 50px;
+}
+
+.irev-reviewText p + svg {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+}
+
+.irev-profile div {
+  background-color: #554e81;
+  padding: 0.1rem;
+  border-radius: 10000px;
+  position: relative;
+}
+.irev-profile > div > img {
+  width: 170px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.irev-profile div::before {
+  background-color: inherit;
+  border-radius: inherit;
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+}
+
+.irev-profile p {
+  text-align: right;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .irev-reviews h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  .irev-container {
+    width: 100vw;
+    padding: 30px 0;
+  }
+  .irev-reviewsDiv {
+    gap: 2rem;
+  }
+
+  .irev-reviewsDiv button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .irev-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .irev-reviewText svg {
+    width: 30px;
+  }
+
+  .irev-reviewText p {
+    max-width: 300px;
+    margin-left: 50px;
+    font-size: 14px;
+  }
+
+  .irev-profile > div > img {
+    width: 140px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+
+  .irev-profile p {
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .irev-reviews h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--primary-color);
+    text-align: center;
+    /* margin: 5rem 0; */
+  }
+  .irev-container {
+    width: 100vw;
+    padding: 30px 0;
+  }
+  .irev-reviewsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .irev-reviewsDiv button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 1000px;
+    cursor: pointer;
+  }
+  
+
+  .irev-reviewText {
+    position: relative;
+  }
+  
+  .irev-reviewText svg {
+    width: 45px;
+  }
+  
+  .irev-reviewText p {
+    max-width: 445px;
+    margin: 0 0px 10px 50px;
+  }
+  
+  .irev-reviewText p + svg {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+  }
+  
+  .irev-profile p {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .irev-review {
+    flex-direction: column;
+    width: 80vw;
+  }
+  .irev-profile div {
+    background-color: #554e81;
+    padding: 0.1rem;
+    border-radius: 10000px;
+    position: relative;
+  }
+  .irev-profile > div > img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  .irev-profile div::before {
+    background-color: inherit;
+    border-radius: inherit;
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+  }
+  
+  .irev-profile p {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 5px 0 0 0;
+  }
+}
