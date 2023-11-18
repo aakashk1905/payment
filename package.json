@@ -2,7 +2,7 @@
   "name": "payment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://upskill.tutedude.com/payment",
+  "homepage": ".",
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",

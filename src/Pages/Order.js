@@ -143,7 +143,6 @@ if (!ids.includes(slug)) {
               </div>
             </div>
           </div>
-
           <div className="order-right-cont">
             <PaymentCard slug="uiux" name={name} email={email} />
           </div>
