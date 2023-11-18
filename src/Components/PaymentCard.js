@@ -141,9 +141,10 @@ const PaymentCard = ({ slug, name, email }) => {
         </div>
         <button
           className="proceed-to-pay"
-          onClick={() =>
-            checkoutHandler(699 - discount, name, email, slug, coupon)
-          }
+          onClick={() => {
+            window.fbq("track", " InitiateCheckout");
+            checkoutHandler(699 - discount, name, email, slug, coupon);
+          }}
         >
           Proceed to Pay
         </button>
