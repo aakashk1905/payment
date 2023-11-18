@@ -1,12 +1,12 @@
 .order-cont {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height:650px;
-  gap:7rem;
+  /* min-height:650px;
+  gap:7rem; */
 }
 .order-logo-cont {
   width: 100%;
