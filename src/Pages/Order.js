@@ -15,7 +15,7 @@ import Navbar from "../Components/Navbar";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Order = () => {
-  const [slug, setSlug] = useState(Cookies.get("slug") || "uiux");
+  const [slug, setSlug] = useState(Cookies.get("slug"));
   const [showLogin, setShowLogin] = useState(false);
 
   const [showSign, setShowSign] = useState(false);
@@ -48,34 +48,34 @@ const Order = () => {
     }
   }, [bought]);
 
-  const ids = [
-    // "mernstack",
-    // "webdevelopment",
-    // "appdevelopment",
-    // "ethicalhacking",
-    // "java",
-    // "python",
-    // "cpp",
-    // "datastructure",
-    // "competitiveprogramming",
-    // "aftereffects",
-    // "photoshop",
-    // "premierepro",
-    // "digitalmarketing",
-    // "fundamentalanalysis",
-    // "technicalanalysis",
-    // "illustrator",
-    // "financialmodelling",
-    // "datascience",
-    "uiux",
-    // "reactnative",
-    // "riskmanagement",
-    // "dbms",
-    // "devops",
-    // "reactjs"
-]
+  const ids = {
+  //   "mernstack": "Web Development MERN Stack",
+  //   "webdevelopment" : "Web Development with PHP/MySQL",
+  //   "appdevelopment" : "App Development",
+  //   "ethicalhacking":"Ethical Hacking",
+  //   "java" : "Java",
+    "python":"Python",
+  //   "cpp":"C++",
+  //   "datastructure" :"DS & Algo",
+  //   "competitiveprogramming" :"Competitive Programming",
+  //   "aftereffects":"After Effects",
+  //   "photoshop" :"Photoshop",
+  //   "premierepro":"Premiere Pro",
+  //   "digitalmarketing":"Digital Marketing",
+  //   "fundamentalanalysis":"Stock Investing",
+  //   "technicalanalysis":"Stock Trading",
+  //   "illustrator":"Illustrator",
+  //   "financialmodelling" :"Financial Modelling & Valuation",
+  //   "datascience" :"Data Science",
+    "uiux" : "UI/UX Designing",
+  //   "reactnative" :"React Native",
+  //   "riskmanagement" :"Financial Risk Management",
+  //   "dbms" :"DBMS",
+  //   "devops" :"DevOps",
+  //   "reactjs":"ReactJs"
+  }
 
-if (!ids.includes(slug)) {
+if (!ids.hasOwnProperty(slug)) {
   Cookies.remove('slug')
     alert("wrong URL!!!");
     window.location.href = "https://tutedude.com"
@@ -119,7 +119,7 @@ if (!ids.includes(slug)) {
           <div className="order-left-cont">
             <div className="order-left-head-cont">
               <div className="order-left-head-subcont">
-                <div className="order-left-cp">{slug === 'uiux'?"UI/UX" : slug}</div>
+                <div className="order-left-cp">{ids[slug]}</div>
                 <div className="order-left-ch">with 100% refund</div>
               </div>
               {/* <div className='order-left-str'><s>₹3495</s><span className='order-right-amt'>  ₹ 1874</span></div> */}

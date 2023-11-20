@@ -1,256 +1,248 @@
 .pack-sec {
-    margin: auto;
-    width: 80vw;
-    padding:0 0 30px 0;
+  margin: auto;
+  width: 80vw;
+  padding: 0 0 30px 0;
 }
 
-
 .gradText {
-    color: #800080;
-    font-size: 2rem;
-    /* width: 100vw; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
-    text-align: center;
+  color: #800080;
+  font-size: 2rem;
+  /* width: 100vw; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .pack-cards {
-    column-gap: 7rem;
-    row-gap:30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 4rem;
-    flex-shrink: inherit;
-    flex-wrap: wrap;
+  column-gap: 7rem;
+  row-gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 4rem;
+  flex-shrink: inherit;
+  flex-wrap: wrap;
 }
 
 .pack-info .pi-2 h3::after {
-    content: "₹ 14679";
+  content: "₹ 14679";
 }
 
 .pack123 {
-    width: 15rem;
-    height: 13rem;
-    background: #fef8f4;
-    box-shadow: 0px 0.2rem 1.3rem rgba(0, 0, 0, 0.15);
-    border-radius: 0.4rem;
-    color: #431943;
-    position: relative;
-    padding: 1.5rem;
-    padding-left: 6.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 15rem;
+  height: 13rem;
+  background: #fef8f4;
+  box-shadow: 0px 0.2rem 1.3rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.4rem;
+  color: #431943;
+  position: relative;
+  padding: 1.5rem;
+  padding-left: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pack123 .side-note {
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 124.5%;
-    text-align: center;
-    color: #ffffff;
-    height: 3rem;
-    width: 16rem;
-    background: #431943;
-    padding-top: 2rem;
-    position: absolute;
-    transform: rotate(-90deg);
-    /* top: 34.2%; */
-    left: -6.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 124.5%;
+  text-align: center;
+  color: #ffffff;
+  height: 3rem;
+  width: 16rem;
+  background: #431943;
+  padding-top: 2rem;
+  position: absolute;
+  transform: rotate(-90deg);
+  /* top: 34.2%; */
+  left: -6.5rem;
 }
 
 .main-pack-content {
-    width: 15rem;
+  width: 15rem;
 }
 
 .pack123 h2 {
-    width: fit-content;
-    font-weight: 600;
-    font-size: 1.3rem;
-    margin:0;
-    background: linear-gradient(180deg, #0f0e0f 0%, #7e267e 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    border-bottom: 0.1rem dashed #d9d8d8;
-    position: relative;
-    margin-left: 1rem;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0;
+  background: linear-gradient(180deg, #0f0e0f 0%, #7e267e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 0.1rem dashed #d9d8d8;
+  position: relative;
+  margin-left: 1rem;
 }
 
 .star-left {
-    position: absolute;
-    top: 1rem;
-    left: -2.5rem;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 1rem;
+  left: -2.5rem;
+  transform: translateY(-50%);
 }
 .star-right {
-    position: absolute;
-    top: 1rem;
-    right: -2.5rem;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 1rem;
+  right: -2.5rem;
+  transform: translateY(-50%);
 }
 
 .pack-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .pack-info p {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .pack-info div {
-    height: 3rem;
-    width: 0;
-    border-left: 0.1rem dashed #d9d8d8;
-    position: relative;
+  height: 3rem;
+  width: 0;
+  border-left: 0.1rem dashed #d9d8d8;
+  position: relative;
 }
 .pack-info div::before {
-    content: "";
-    height: 0.7rem;
-    width: 0.7rem;
-    border-radius: 50%;
-    background: #d9d8d8;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translate(-54%, 0%);
+  content: "";
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  background: #d9d8d8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(-54%, 0%);
 }
 .pack-info div::after {
-    content: "";
-    height: 0.7rem;
-    width: 0.7rem;
-    border-radius: 50%;
-    background: #d9d8d8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-54%, -50%);
+  content: "";
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  background: #d9d8d8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-54%, -50%);
 }
 
 .pack-info h3 {
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2.6rem;
-    color: #656565;
-    position: relative;
-    margin:0 1rem 1rem 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #656565;
+  position: relative;
+  margin: 0 1rem 1rem 0;
 }
 
 .pack-info h3::after {
-    content: "₹ 2796";
-    font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-    position: absolute;
-    bottom: -1.5rem;
-    right: 3px;
-    text-decoration-line: line-through;
-    color: rgb(144, 144, 144);
+  content: "₹ 2796";
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  position: absolute;
+  bottom: -1.5rem;
+  right: 3px;
+  text-decoration-line: line-through;
+  color: rgb(144, 144, 144);
 }
 
 .pack123 span {
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1rem;
-    display: block;
-    margin: 1rem auto;
-    color: #800080;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  display: block;
+  margin: 1rem auto;
+  color: #800080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pack123 button {
-    font-family: inherit;
-    margin: 0 auto;
-    width: 12.5rem;
-    height: 2.5rem;
-    background: #800080;
-    border:none;
-    box-shadow: 0px 0px 5px #d9d9d9;
-    border-radius: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-    font-weight: 600;
-    /* font-size: 1.8rem; */
-    color: #ffffff;
+  font-family: inherit;
+  margin: 0 auto;
+  width: 12.5rem;
+  height: 2.5rem;
+  background: #800080;
+  border: none;
+  box-shadow: 0px 0px 5px #d9d9d9;
+  border-radius: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  /* font-size: 1.8rem; */
+  color: #ffffff;
 }
 
 .left-circles {
-    position: absolute;
-    left: -14px;
-    top: -10px;
-    transform: translate(-50%, 3%);
+  position: absolute;
+  left: -14px;
+  top: -10px;
+  transform: translate(-50%, 3%);
 }
 .pack123 .circles {
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background: #fff;
-    margin-bottom: 0.5rem;
-    top:-3px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  top: -3px;
 }
 .right-circles {
-    position: absolute;
-    right: 0.1rem;
-    top: -0.5rem;
-    transform: translate(50%, 3%);
+  position: absolute;
+  right: 0.1rem;
+  top: -0.5rem;
+  transform: translate(50%, 3%);
 }
 .right-circles .circles {
-    box-shadow: inset 0.1rem 0rem 0.6rem rgba(0, 0, 0, 0.12);
-} 
-a{
-    text-decoration: none;
+  box-shadow: inset 0.1rem 0rem 0.6rem rgba(0, 0, 0, 0.12);
 }
-
-
-
+a {
+  text-decoration: none;
+}
 
 @media screen and (max-width: 700px) {
-    .pack123{
-        width:11rem;
-    }
-    .pack123 h2 {
-        font-size: 1.1rem;
-        margin-left:1rem;
-    }
-    .pack-info p {
-        font-size: 1.1rem;
-    }
-    
-.pack-info h3 {
-    font-size: 1.3rem;
-}
+  .pack123 {
+    width: clamp(8rem, 50vw, 16rem);
+  }
+  .pack123 h2 {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+  .pack-info p {
+    font-size: 1.1rem;
+  }
 
-.pack-info h3::after {
+  .pack-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .pack-info h3::after {
     font-size: 0.9rem;
     right: 0.5rem;
-    
-}
+  }
 
-.pack123 button {
+  .pack123 button {
     margin: 0 2rem auto auto;
     width: 11rem;
-    height: 2.5rem;   
-}
-.star-left {
-   width:1.3rem;
-   left: -1.6rem;
-   top: 0.8rem;
-}
-.star-right {
-   width:1.3rem;
+    height: 2.5rem;
+  }
+  .star-left {
+    width: 1.3rem;
+    left: -1.6rem;
+    top: 0.8rem;
+  }
+  .star-right {
+    width: 1.3rem;
     top: 0.8rem;
     right: -1.6rem;
-    
-}
-
+  }
 }
